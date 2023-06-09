@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Dropshipping Website</title>
+    <link rel="stylesheet" href="dropship.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Lato&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<header>
+	<a href="dropship.html" class="title">Toyin Alec</a>
+<nav>
+    <ul id="MenuItems">
+      <li><a href="/DROPSHIPPING WEBSITE/dropship.html">Home</a></li>
+      <li><a href="/DROPSHIPPING WEBSITE/shop.html" class="active">Shop</a></li>
+      <li><a href="/DROPSHIPPING WEBSITE/aboutus.html">About</a></li>
+      <li><a href="/DROPSHIPPING WEBSITE/contact.html">Contact</a></li>
+	</ul>
+</nav>
+</header>
+
+<body>
+    <div class="header">
+<div class="row">
+<div class="col-2">
+  <div class="outcome">
+    <h1 style="margin-top:100px; text-align:center; margin-right:80px">Shop</h1>
+    
+</div>
+</div>
+
+</div>
+</div>
+<div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <a href="/DROPSHIPPING WEBSITE/dunkfog.html"><img src="Images/Dunk Low Grey Fog.png" id="Dunkfoggrey"></a>
+          <h4>Nike Dunk Low 'Grey Fog'</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          <p>$220.00</p>
+        </div>
+        <div class="col-4">
+          <a href="thunder.html"><img src="Images/AJ4 Thunder.png" id="Thunder"></a>
+          <h4>Air Jordan 4 'Thunder'</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          <p>$400.00</p>
+        </div>
+        <div class="col-4">
+          <img src="Images/Off White Volt.png" id="Volts">
+          <h4>Air Force 1 low 'Off White Volt'</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          <p>$1500.00</p>
+        </div>
+        <div class="col-4">
+          <img src="Images/350 Bone.png" id="Yeezybone">
+          <h4>Adidas Yeezy Boost 350 'Bone'</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          <p>$600.00</p>
+        </div>
+      </div>
+      <h2 class="title">Trending Product</h2>
+      <div class="row">
+        <div class="col-6">
+          <img src="Images/Jarritos.png"- class="offer-img">
+          <h4>Dunk Low SB 'Jarritos'</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          <p>$650.00</p>
+        </div>
+      </div>
+    </div>
+  <!----Brand-->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="Images/nike.png">
+          </div>
+          <div class="col-5">
+            <img src="Images/Jordan.png">
+          </div>
+          <div class="col-5">
+            <img src="Images/adidas (1).png">
+          </div>
+          <div class="col-5">
+            <img src="Images/offwhite.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+    
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+          MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+          MenuItems.style.maxHeight = "0px"
+        }
+      }
+  
+      window.addEventListener("resize", function(){
+        if (window.innerWidth > 800){
+          MenuItems.style.maxHeight = "0px";
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+      })
+    </script>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+function menutoggle(){
+  if(MenuItems.style.maxHeight == "0px")
+  {
+    MenuItems.style.maxHeight = "200px"
+  }
+  else
+  {
+    MenuItems.style.maxHeight = "0px"
+  }
+}
+</script>
+<script type="text/javascript">
+  window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+  })
+
+</script>
+<body>
+</html>

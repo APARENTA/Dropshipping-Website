@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Asap', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    }
+    /*NAVBAR STARTS HERE*/
+    @import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.6s;
+        z-index: +100;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+    
+    .title {
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    header ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header ul img{
+        padding-left: 5px;
+    }
+    
+    header ul li {
+        list-style-type: none;
+        margin-left: 20px;
+    }
+    
+    header ul li a {
+        border: none;
+        text-decoration: none;
+        padding: 6px 15px;
+        color: black;
+        border-radius: 20px;
+        font-size: 20px;
+        transition: .3s;
+    }
+    
+    header ul li a:hover,
+    header ul li a.active {
+        background: black;
+        color: white;
+    }
+
+    .header{
+        background: radial-gradient(#fff,#f9ffd6);
+    }
+    /*Navbar block*/
+    header.sticky{
+        padding: 5px 100px;
+        background: #fff;
+      }
+    /*Navbar block end*/
+    .col-2{
+        flex-basis:50%;
+        min-width: 300px;
+        padding-top: 100px;
+        text-align: left;
+    }
+
+    .col-2 h1{
+        font-size: 50px;
+        line-height: 60px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .outcome{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+
+    }
+    .menu-icon{
+        width: 28px;
+        margin-left: 20px;
+        display: none;
+      }
+    
+
+    /*RESPONSIVITY*/
+  /*media query for less than 600 screen size*/
+  @media only screen and (max-width: 600px){
+    .row{
+      text-align: center;
+    }
+  
+    .col-2, .col-3, .col-4{
+      flex-basis: 100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 800px){
+    nav ul {
+        position: absolute;
+        display: block;
+        top: 70px;
+        left: 0;
+        background: #000;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li {
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    nav ul li a {
+      color: #fff;
+    }
+    .menu-icon{
+      display: block;
+      cursor: pointer;
+    }
+  }
+  .indent p{
+    text-indent: -50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+  }
+  

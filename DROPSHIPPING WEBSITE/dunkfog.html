@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Dropshipping Website</title>
+    <link rel="stylesheet" href="dropship.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Lato&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<header>
+	<a href="dropship.html" class="title">Toyin Alec</a>
+<nav>
+    <ul id="MenuItems">
+      <li><a href="/DROPSHIPPING WEBSITE/dropship.html">Home</a></li>
+      <li><a href="#" class="active">Shop</a></li>
+      <li><a href="/DROPSHIPPING WEBSITE/aboutus.html">About</a></li>
+      <li><a href="/DROPSHIPPING WEBSITE/contact.html">Bibliography</a></li>
+     
+	</ul>
+</nav>
+
+<a href="cart.html">
+  <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" width="30px" height="30px">
+  </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" 
+           class="menu-icon" width="30px" height="30px" onclick="menutoggle()">
+
+        
+</header>
+<body>
+    <div class="small-container">
+      <div class="single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/Dunk Low Grey Fog.png" width="100%" id="ProductImg">
+
+              <div class="small-img-row">
+                <div class="small-img-col">
+                  <img src="Images/Dunk Low Grey Fog.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                  <img src="Images/Grey fog 2.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                  <img src="Images/Grey fog 3.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                  <img src="Images/Grey fog 4.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                  <img src="Images/Grey fog 5.png" width="100%" class="small-img">
+                </div>
+              </div>
+
+
+
+            </div>
+            <div class="col-2">
+                <p>Home/Shoes</p>
+                <h1> Nike Dunk Low 'Grey Fog'</h1>
+                <h4>AUD $220</h4>
+                <select>
+                  <option>Mens</option>
+                  <option>Womens</option>
+                </select>
+                <select>
+                    <option>Select Size</option>
+                    <option>5</option>
+                    <option>5.5</option>
+                    <option>6</option>
+                    <option>6.5</option>
+                    <option>7</option>
+                    <option>7.5</option>
+                    <option>8</option>
+                    <option>8.5</option>
+                    <option>9</option>
+                    <option>9.5</option>
+                    <option>10</option>
+                    <option>10.5</option>
+                    <option>11</option>
+                    <option>11.5</option>
+                    <option>12</option>
+                    <option>12.5</option>
+                    <option>13</option>
+                    <option>13.5</option>
+                    <option>14</option>
+                    <option>14.5</option>
+                    <option>15</option>
+                </select>
+                <input type="number" value="1" max="10" min="1">
+                <a href="" class="btn">Add To Cart</a>
+                <a href="" class="btn">Buy Now</a>
+            </div>
+    </div>
+        </div>
+      </div>
+    
+
+<!----Brand-->
+  <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img src="Images/nike.png">
+        </div>
+        <div class="col-5">
+          <img src="Images/Jordan.png">
+        </div>
+        <div class="col-5">
+          <img src="Images/adidas (1).png">
+        </div>
+        <div class="col-5">
+          <img src="Images/offwhite.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+  
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+        MenuItems.style.maxHeight = "200px"
+      }
+      else
+      {
+        MenuItems.style.maxHeight = "0px"
+      }
+    }
+
+    window.addEventListener("resize", function(){
+      if (window.innerWidth > 800){
+        MenuItems.style.maxHeight = "0px";
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+
+  </script>
+<!--------js for product gallery------>
+
+<script>
+  var ProductImg = document.getElementById("ProductImg");
+  var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function() {
+      ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function() {
+      ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function() {
+      ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function() {
+      ProductImg.src = SmallImg[3].src;
+    }
+    SmallImg[4].onclick = function() {
+      ProductImg.src = SmallImg[4].src;
+    }
+    SmallImg[5].onclick = function() {
+      ProductImg.src = SmallImg[5].src;
+    }
+
+</script>
+
+</body>
+</html>

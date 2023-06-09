@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>About Us</title>
+        <link rel="stylesheet" href="aboutus.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Lato&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+        <header>
+            <a href="dropship.html" class="title">Toyin Alec</a>
+          <nav>
+              <ul id="MenuItems">
+                <li><a href="/DROPSHIPPING WEBSITE/dropship.html">Home</a></li>
+                <li><a href="/DROPSHIPPING WEBSITE/shop.html">Shop</a></li>
+                <li><a href="/DROPSHIPPING WEBSITE/aboutus.html" class="active">About</a></li>
+                <li><a href="/DROPSHIPPING WEBSITE/contact.html">Bibliography</a></li>
+               
+            </ul>
+          </nav>
+          
+          <a href="cart.html">
+            <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" width="30px" height="30px">
+            </a>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" 
+                     class="menu-icon" width="30px" height="30px" onclick="menutoggle()">
+
+      </header>
+    </head>
+    <body>
+            <div class="header">
+    <div class="row">
+        <div class="col-2">
+          <div class="outcome">
+            <h1>About Us<br>Research Outcome</h1>
+            <p>The first step to creating a dropshipping website is locating a valid programming platform that meets the criteria to create a webpage that can be exported and assigned a domain. If working collaboratively, it must be equipped with sharing capabilities and work smoothly during that process. For the purposes of this webpage, github was used due to its simplicity, intuitive interface, and collaborative aspect.(<a href="https://github.com/">Github</a>,2023)
+              A focus product/genre was then selected to create the basis of our website around. Although this is not an important step to answering the research question, it provides placeholder images and text to work with.<p><br>
+              The third step is creating the foundation of the website. This means adding raw unlinked text, and formatting it using cascading style sheets. The first foundation element on our webpage was the sticky navigation bar. Using the list-style-type property, and setting it to ‘none;’, we were able to align the tabs correctly, followed by basic formatting and connection to corresponding pages in the website. Other aesthetic elements included in the navigation bar include text aligning, font size and weight, and the active class assigned to its respective page.(<a href="https://www.w3schools.com/html/default.asp">W3 Schools html</a>, 2023)<p><br>
+              The fourth step is writing css for each of the page elements. In our case, we chose a radial gradient and themed our color palette around the background color. To insert a radial gradient, simply add the css property of ‘background: radial-gradient(hsl or rgb code, hsl or rgb code);’ to the class being used for the background. In our case the class being used is “header” with other classes/syntax attached as suffixes assigned as necessary. To format images, ensure they are assigned to a class or id. In our case, the images were assigned to classes, however, some were assigned id’s to make minor positional or size adjustments.(<a href="https://www.w3schools.com/css/default.asp">W3 Schools css, 2023)</a><p><br>
+              Another takeaway when formatting the website, using external sources to import icons and other elements of that nature is simple, quick to write the code for, and produces professional aesthetics. The webpages that source them provide the linking required to insert the custom html properties. Using dynamic features such as animate on scroll libraries and text animation on hover using the ::hover and @keyframes properties also gives depth and professionalism to the page. Using high quality images which can generally be sourced from the manufacturer of the product also accentuates the legitimacy of the page.(<a href="https://www.w3schools.com/js/">W3 Schools Js</a>, 2023)<p><br>
+              
+              The fourth step in the creation is adding depth to the website as a whole. This can be done by adding buttons that link to other pages in the website. (w3 Schools, 2023) This presents an interactive and hooking experience for the customer. The pages used in our website were a home, shop, about us, contact us, and cart/checkout page. For time purposes, each page is quite minimalistic, but they serve the purpose of answering the research question. Something to keep in mind is to assign the class of active to the page being viewed by the user. This is done in the html.(W3 schools, 2023)<p><br>
+              
+              The final step is to polish the home and about pages and make changes to ensure the functionality is of the utmost quality, followed by making the website responsive. Responsivity allows customers visiting the website on all devices to enjoy a smooth, functional shopping experience. Adding responsivity enables the navigation bar to collapse into a menu when the viewport is minimized past a certain point. In our case, the navigation bar reshapes itself when the viewport is equal to or less than 800 pixels wide, meaning that once the width of the window is resized below 800 pixels, the navigation bar would collapse into a menu icon. To ensure the menu is capable of opening and closing, it was necessary to implement java script for the animation. Adding responsivity also enabled the readjustment of website elements. In summary, the responsivity allows the website to change its appearance and functionality depending on the size of the screen it is being viewed on.(W3 schools, 2023)<p><br>
+              After the home page and about page are completed, the rest of the website must be constructed. Due to the length of this task, an in depth evaluation and description of the code is unnecessary, however, the key points to consider are creating one product purchase page first and duplicating it to create a functional ‘shop’ page. This can be achieved by using imported images, formatted by css assigned to a singular css class, and implemented in separate html files linked to the navigation bar. Javascript is not necessary during this process, however, it depends on the complexity of the page. For times sake, this dropshipping website will have a basic shop page that does not include javascript. For a cart page, the cart icon in the navigation bar will be linked using the href tag to its corresponding html file. The cart page only requires basic html and css. For the cart to be functional, allowing the purchase of items in real time, custom html libraries are required. This process is extremely time consuming and requires complex library implementation. For the purpose of this task, this will be intentionally excluded.(<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">mdn web docs_</a>, 2021)<br>
+              To conclude, the process of making a dropshipping website is long and complex with many steps that have been condensed into a 5 step procedure. Due to the time frame given and the complexity of the next steps, functionality of the mock website that was created is limited, however, it achieves the goal of following the dropshipping creation process.
+              </p>
+        </div>
+      </div>
+        
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+      
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+          {
+            MenuItems.style.maxHeight = "200px"
+          }
+          else
+          {
+            MenuItems.style.maxHeight = "0px"
+          }
+        }
+      </script>
+        <script type="text/javascript">
+          window.addEventListener("scroll", function(){
+              var header = document.querySelector("header");
+              header.classList.toggle("sticky", window.scrollY > 0);
+          })
+      
+        </script>
+    </body>
+</html>
